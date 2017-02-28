@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Prueba_iOS_ObjC' do
+    
+    pod 'AFNetworking'
+    pod 'Realm', '2.4.3'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Prueba_iOS_ObjC
+
+  target 'Prueba_iOS_ObjCTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Prueba_iOS_ObjCUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
